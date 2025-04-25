@@ -1,0 +1,87 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+
+  &.light {
+    background-color: #f5f7fa;
+    color: #333;
+
+    .demo-section {
+      background: white;
+      border: 1px solid #e1e5eb;
+    }
+  }
+
+  &.dark {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+
+    .demo-section {
+      background: #2d2d2d;
+      border: 1px solid #444;
+    }
+
+    .slider__values span {
+      color: #aaa;
+    }
+
+    .slider__tooltip {
+      background: #333;
+      color: white;
+    }
+  }
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  button {
+    background: #009CF6;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      background: #0085d6;
+    }
+  }
+}
+
+.demo-section {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+
+  h2 {
+    margin-top: 0;
+    color: inherit;
+  }
+}
+
+.value-display {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background: rgba(0, 156, 246, 0.1);
+  border-radius: 4px;
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    padding: 1rem;
+  }
+
+  .demo-section {
+    padding: 1rem;
+  }
+}
