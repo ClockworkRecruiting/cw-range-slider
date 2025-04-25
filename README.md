@@ -2,7 +2,6 @@
 
 A highly customizable range and single slider component for React with TypeScript support, dark mode compatibility, and flexible styling options.
 
-![cw-range-slider demo](https://via.placeholder.com/1200x500/1a1a1a/ffffff?text=cw-range-slider+with+Dark+and+Light+Themes)
 
 ## Features
 

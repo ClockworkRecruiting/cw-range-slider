@@ -5,7 +5,7 @@
   "main": "./dist/cw-range-slider.umd.js",
   "module": "./dist/cw-range-slider.es.js",
   "types": "./dist/index.d.ts",
-  "homepage": "https://ClockworkRecruiting.github.io/cw-range-slider",
+  "homepage": "https://github.com/ClockworkRecruiting/cw-range-slider",
   "files": [
     "dist"
   ],
