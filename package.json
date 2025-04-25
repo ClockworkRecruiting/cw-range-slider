@@ -1,6 +1,5 @@
 {
   "name": "cw-range-slider",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/cw-range-slider.umd.js",
